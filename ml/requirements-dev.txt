@@ -1,0 +1,9 @@
+-r requirements.txt
+# notebooks, training, deep learning and tests
+matplotlib>=3.8
+ijson>=3.2
+tensorflow-cpu>=2.16
+jupyter>=1.0
+nbformat>=5.9
+nbclient>=0.10
+pytest>=8.0

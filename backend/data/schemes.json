@@ -1,0 +1,272 @@
+[
+    {
+        "id": "pm-kisan",
+        "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+        "ministry": "Ministry of Agriculture & Farmers Welfare",
+        "category": "Agriculture",
+        "benefitAmount": 6000,
+        "benefitDescription": "₹6,000 per year in 3 installments",
+        "eligibility": {
+            "occupation": [
+                "farmer"
+            ],
+            "maxIncome": 200000,
+            "landOwner": true
+        },
+        "requiredDocuments": [
+            "Aadhaar Card",
+            "Land Records",
+            "Bank Account",
+            "Mobile Number"
+        ],
+        "applicationLink": "https://pmkisan.gov.in/",
+        "description": "Direct income support of ₹6,000/year to farmer families.",
+        "timeline": "Every 4 months",
+        "tags": [
+            "farmer",
+            "agriculture",
+            "income support"
+        ],
+        "icon": "🌾",
+        "color": "#22c55e"
+    },
+    {
+        "id": "ayushman-bharat",
+        "name": "Ayushman Bharat – PM Jan Arogya Yojana",
+        "ministry": "Ministry of Health and Family Welfare",
+        "category": "Health",
+        "benefitAmount": 500000,
+        "benefitDescription": "₹5 lakh per family per year for hospitalization",
+        "eligibility": {
+            "maxIncome": 200000
+        },
+        "requiredDocuments": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Income Certificate"
+        ],
+        "applicationLink": "https://pmjay.gov.in/",
+        "description": "Health insurance₹5 lakh/year for secondary and tertiary hospitalization.",
+        "timeline": "Ongoing – claim at empanelled hospital",
+        "tags": [
+            "health",
+            "insurance",
+            "hospital"
+        ],
+        "icon": "🏥",
+        "color": "#ef4444"
+    },
+    {
+        "id": "kisan-credit-card",
+        "name": "Kisan Credit Card (KCC)",
+        "ministry": "Ministry of Agriculture & Farmers Welfare",
+        "category": "Agriculture",
+        "benefitAmount": 300000,
+        "benefitDescription": "Credit up to ₹3 lakh at 4% interest",
+        "eligibility": {
+            "occupation": [
+                "farmer"
+            ],
+            "landOwner": true,
+            "minAge": 18,
+            "maxAge": 75
+        },
+        "requiredDocuments": [
+            "Aadhaar Card",
+            "Land Records",
+            "Photo",
+            "Bank Details"
+        ],
+        "applicationLink": "https://www.nabard.org/",
+        "description": "Credit support for farmers at subsidized 4% interest rate.",
+        "timeline": "Within 15 working days",
+        "tags": [
+            "farmer",
+            "credit",
+            "loan"
+        ],
+        "icon": "💳",
+        "color": "#f59e0b"
+    },
+    {
+        "id": "pm-vishwakarma",
+        "name": "PM Vishwakarma Yojana",
+        "ministry": "Ministry of MSME",
+        "category": "Skill & Livelihood",
+        "benefitAmount": 315000,
+        "benefitDescription": "₹15K toolkit + ₹3L loan + skill training",
+        "eligibility": {
+            "occupation": [
+                "artisan",
+                "carpenter",
+                "weaver",
+                "tailor",
+                "blacksmith",
+                "potter",
+                "cobbler",
+                "washerman"
+            ],
+            "minAge": 18,
+            "maxAge": 60,
+            "maxIncome": 300000
+        },
+        "requiredDocuments": [
+            "Aadhaar Card",
+            "Mobile",
+            "Bank Account",
+            "Trade Certificate"
+        ],
+        "applicationLink": "https://pmvishwakarma.gov.in/",
+        "description": "Toolkit + loan + training for traditional artisans and craftsmen.",
+        "timeline": "Training: 5-15 days | Loan: 30 days",
+        "tags": [
+            "artisan",
+            "craft",
+            "skill",
+            "loan"
+        ],
+        "icon": "🔨",
+        "color": "#8b5cf6"
+    },
+    {
+        "id": "national-scholarship",
+        "name": "National Scholarship Portal – Central Schemes",
+        "ministry": "Ministry of Education",
+        "category": "Education",
+        "benefitAmount": 75000,
+        "benefitDescription": "₹25,000–₹75,000 per year",
+        "eligibility": {
+            "studentStatus": true,
+            "maxAge": 30,
+            "maxIncome": 250000,
+            "category": [
+                "SC",
+                "ST",
+                "OBC",
+                "minority",
+                "EWS"
+            ]
+        },
+        "requiredDocuments": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Caste Certificate",
+            "Admission Proof",
+            "Mark Sheet",
+            "Bank Account"
+        ],
+        "applicationLink": "https://scholarships.gov.in/",
+        "description": "Central scholarships for SC/ST/OBC/minority students.",
+        "timeline": "Annual – July to October",
+        "tags": [
+            "student",
+            "scholarship",
+            "education"
+        ],
+        "icon": "🎓",
+        "color": "#06b6d4"
+    },
+    {
+        "id": "tn-bc-scholarship",
+        "name": "Tamil Nadu BC/MBC Scholarship",
+        "ministry": "Tamil Nadu Backward Classes Welfare Dept.",
+        "category": "Education",
+        "benefitAmount": 12000,
+        "benefitDescription": "₹1,000/month for BC/MBC students",
+        "eligibility": {
+            "studentStatus": true,
+            "maxAge": 25,
+            "maxIncome": 200000,
+            "category": [
+                "BC",
+                "MBC"
+            ],
+            "state": [
+                "Tamil Nadu"
+            ]
+        },
+        "requiredDocuments": [
+            "Aadhaar Card",
+            "Community Certificate",
+            "Income Certificate",
+            "Bonafide Certificate",
+            "Bank Account"
+        ],
+        "applicationLink": "https://adi.tn.gov.in/",
+        "description": "Monthly stipend for BC/MBC students in Tamil Nadu.",
+        "timeline": "Annual – disbursed monthly via DBT",
+        "tags": [
+            "Tamil Nadu",
+            "BC",
+            "MBC",
+            "scholarship"
+        ],
+        "icon": "📚",
+        "color": "#f97316"
+    },
+    {
+        "id": "pradhan-mantri-awas",
+        "name": "Pradhan Mantri Awas Yojana (PMAY)",
+        "ministry": "Ministry of Housing and Urban Affairs",
+        "category": "Housing",
+        "benefitAmount": 250000,
+        "benefitDescription": "Subsidy up to ₹2.5 lakh on home loans",
+        "eligibility": {
+            "maxIncome": 300000,
+            "category": [
+                "EWS",
+                "SC",
+                "ST",
+                "OBC"
+            ]
+        },
+        "requiredDocuments": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Property Documents",
+            "Bank Account",
+            "Caste Certificate"
+        ],
+        "applicationLink": "https://pmayg.nic.in/",
+        "description": "Housing for All – interest subsidy on home loans for EWS/LIG families.",
+        "timeline": "Ongoing – apply through bank or CSC",
+        "tags": [
+            "housing",
+            "home loan",
+            "subsidy",
+            "EWS"
+        ],
+        "icon": "🏠",
+        "color": "#0ea5e9"
+    },
+    {
+        "id": "sukanya-samriddhi",
+        "name": "Sukanya Samriddhi Yojana",
+        "ministry": "Ministry of Finance",
+        "category": "Women & Child",
+        "benefitAmount": 150000,
+        "benefitDescription": "8.2% interest + 80C tax exemption",
+        "eligibility": {
+            "gender": [
+                "female"
+            ],
+            "maxAge": 10
+        },
+        "requiredDocuments": [
+            "Aadhaar of girl child",
+            "Birth Certificate",
+            "Parent ID"
+        ],
+        "applicationLink": "https://www.indiapost.gov.in/",
+        "description": "High-interest savings scheme for parents of girl child below 10 years.",
+        "timeline": "21 years maturity",
+        "tags": [
+            "girl child",
+            "savings",
+            "tax benefit",
+            "women"
+        ],
+        "icon": "👧",
+        "color": "#ec4899"
+    }
+]

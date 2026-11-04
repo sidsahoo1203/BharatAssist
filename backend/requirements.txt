@@ -1,0 +1,15 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+python-dotenv>=1.0.1
+httpx>=0.27.0
+Pillow>=10.3.0
+pytesseract>=0.3.10
+SpeechRecognition>=3.10.4
+pydub>=0.25.1
+reportlab>=4.1.0
+# ML safety guard (models in ../ml/models)
+numpy>=1.26
+pandas>=2.2
+scikit-learn==1.9.1

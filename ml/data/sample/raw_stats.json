@@ -1,0 +1,200 @@
+{
+  "train": {
+    "split": "train",
+    "rows": 1135176,
+    "exact_duplicates": 679578,
+    "missing_prompt_label": 21864,
+    "empty_prompt": 21888,
+    "languages": {
+      "Bengali": 94598,
+      "english": 94598,
+      "Gujrati": 94598,
+      "Hindi": 94598,
+      "Kannada": 94598,
+      "Malayalam": 94598,
+      "Marathi": 94598,
+      "Odia": 94598,
+      "Punajbi": 94598,
+      "Tamil": 94598,
+      "Telugu": 94598,
+      "Urdu": 94598
+    },
+    "tags": {
+      "Culture_adaptive": 160424,
+      "Generic": 600140,
+      "Jailbreaking": 180000,
+      "Culture Adaptive": 14584,
+      "generic": 120028,
+      "Jail breaking": 20000,
+      "jailbreaking": 40000
+    },
+    "prompt_label": {
+      "unsafe": 684888,
+      "safe": 428424,
+      "None": 21864
+    },
+    "response_label": {
+      "None": 446184,
+      "'safe'": 398328,
+      "'unsafe'": 170664,
+      "''": 120000
+    },
+    "categories": {
+      "Violence": 105624,
+      "Criminal Planning/Confessions": 305088,
+      "Hate/Identity Hate": 128040,
+      "Harassment": 92328,
+      "PII/Privacy": 72792,
+      "Guns and Illegal Weapons": 49632,
+      "Sexual (minor)": 25776,
+      "Fraud/Deception": 18072,
+      "Profanity": 57480,
+      "Controlled/Regulated Substances": 79464,
+      "Other": 11808,
+      "Malware": 5376,
+      "Political/Misinformation/Conspiracy": 26976,
+      "Sexual": 52944,
+      "High Risk Gov Decision Making": 3240,
+      "Suicide and Self Harm": 35016,
+      "Threat": 13824,
+      "Needs Caution": 114288,
+      "Manipulation": 27600,
+      "Unauthorized Advice": 29736,
+      "Immoral/Unethical": 44232,
+      "Illegal Activity": 42528,
+      "Copyright/Trademark/Plagiarism": 2712
+    }
+  },
+  "valid": {
+    "split": "valid",
+    "rows": 67512,
+    "exact_duplicates": 39263,
+    "missing_prompt_label": 1032,
+    "empty_prompt": 1056,
+    "languages": {
+      "Bengali": 5626,
+      "english": 5626,
+      "Gujrati": 5626,
+      "Hindi": 5626,
+      "Kannada": 5626,
+      "Malayalam": 5626,
+      "Marathi": 5626,
+      "Odia": 5626,
+      "Punajbi": 5626,
+      "Tamil": 5626,
+      "Telugu": 5626,
+      "Urdu": 5626
+    },
+    "tags": {
+      "Culture_adaptive": 8096,
+      "Generic": 28900,
+      "Jailbreaking": 18000,
+      "Culture Adaptive": 736,
+      "generic": 5780,
+      "Jail breaking": 2000,
+      "jailbreaking": 4000
+    },
+    "prompt_label": {
+      "safe": 25032,
+      "unsafe": 41448,
+      "None": 1032
+    },
+    "response_label": {
+      "'safe'": 19704,
+      "None": 21960,
+      "'unsafe'": 13848,
+      "''": 12000
+    },
+    "categories": {
+      "Criminal Planning/Confessions": 17928,
+      "Controlled/Regulated Substances": 5136,
+      "Violence": 5520,
+      "Hate/Identity Hate": 7872,
+      "Fraud/Deception": 1440,
+      "Needs Caution": 5880,
+      "Threat": 1248,
+      "Profanity": 3816,
+      "PII/Privacy": 4152,
+      "Harassment": 5280,
+      "Guns and Illegal Weapons": 2736,
+      "Political/Misinformation/Conspiracy": 1848,
+      "Sexual (minor)": 2328,
+      "Sexual": 2376,
+      "Suicide and Self Harm": 3072,
+      "High Risk Gov Decision Making": 216,
+      "Other": 288,
+      "Unauthorized Advice": 2160,
+      "Malware": 192,
+      "Copyright/Trademark/Plagiarism": 120,
+      "Illegal Activity": 4344,
+      "Immoral/Unethical": 4392,
+      "Manipulation": 2520
+    }
+  },
+  "test": {
+    "split": "test",
+    "rows": 83256,
+    "exact_duplicates": 45166,
+    "missing_prompt_label": 864,
+    "empty_prompt": 864,
+    "languages": {
+      "Bengali": 6938,
+      "english": 6938,
+      "Gujrati": 6938,
+      "Hindi": 6938,
+      "Kannada": 6938,
+      "Malayalam": 6938,
+      "Marathi": 6938,
+      "Odia": 6938,
+      "Punajbi": 6938,
+      "Tamil": 6938,
+      "Telugu": 6938,
+      "Urdu": 6938
+    },
+    "tags": {
+      "Culture_adaptive": 11110,
+      "Generic": 39280,
+      "Jailbreaking": 18000,
+      "Culture Adaptive": 1010,
+      "generic": 7856,
+      "Jail breaking": 2000,
+      "jailbreaking": 4000
+    },
+    "prompt_label": {
+      "unsafe": 47664,
+      "safe": 34728,
+      "None": 864
+    },
+    "response_label": {
+      "'unsafe'": 17904,
+      "None": 33216,
+      "'safe'": 20136,
+      "''": 12000
+    },
+    "categories": {
+      "Controlled/Regulated Substances": 7248,
+      "Criminal Planning/Confessions": 21648,
+      "Hate/Identity Hate": 8328,
+      "Needs Caution": 8544,
+      "Violence": 7392,
+      "Sexual": 3144,
+      "PII/Privacy": 5664,
+      "Profanity": 3408,
+      "Harassment": 5856,
+      "Malware": 384,
+      "Guns and Illegal Weapons": 3408,
+      "Fraud/Deception": 1320,
+      "Manipulation": 2664,
+      "Political/Misinformation/Conspiracy": 1848,
+      "Sexual (minor)": 1896,
+      "Other": 504,
+      "Suicide and Self Harm": 3168,
+      "Unauthorized Advice": 2424,
+      "High Risk Gov Decision Making": 168,
+      "Threat": 1344,
+      "Copyright/Trademark/Plagiarism": 168,
+      "Immoral/Unethical": 4512,
+      "Illegal Activity": 4464
+    }
+  }
+}

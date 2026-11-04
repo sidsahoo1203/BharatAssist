@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+# ML
+ml/data/raw/
+ml/logs/
+ml/models/keras/
+# Node / Next.js
+node_modules/
+.next/
+frontend/.env*.local

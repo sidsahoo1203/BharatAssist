@@ -1,0 +1,5 @@
+{
+  "decision_threshold": -0.1,
+  "block_threshold": 0.5,
+  "model": "Linear SVM, char 2-4 gram TF-IDF, IndicGuard + in-domain data"
+}
